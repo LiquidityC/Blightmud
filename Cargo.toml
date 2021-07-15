@@ -18,17 +18,17 @@ log = "0.4.14"
 simple-logging = "2.0.2"
 chrono = "0.4.19"
 signal-hook = "0.3.9"
-mlua =  { version = "0.6.1", features = ["lua54", "send", "vendored"] }
+mlua =  { version = "0.6.2", features = ["lua54", "send", "vendored"] }
 regex = "1.5.4"
 strip-ansi-escapes = "0.1.0"
 timer = "0.2.0"
 flate2 = "1.0.20"
-mdcat = { version = "0.23.0", default-features = false }
+mdcat = { version = "0.23.1", default-features = false }
 pulldown-cmark = "0.8.0"
 syntect = "4.5.0"
 serde = { version = "1.0.126", features = ['derive'] }
 ron = "0.6.4"
-anyhow = "1.0.41"
+anyhow = "1.0.42"
 lazy_static = "1.4.0"
 rs-complete = "1.2"
 getopts = "0.2.21"
@@ -41,5 +41,5 @@ git2 = "0.13.19"
 rodio = "0.14.0"
 
 [dev-dependencies]
-mockall = "0.10.1"
+mockall = "0.10.2"
 mockall_double = "0.2.0"
